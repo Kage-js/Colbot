@@ -10,11 +10,11 @@ const options = {
     reconnect: true,
   },
   identity: {
-    username:"ColbotBeta" ,
-    password:"oauth:wek4gw4ig19ecvrjadbuu2m6vrymql" ,
+    username:name ,
+    password:password ,
   },
 
-  channels: ["Colbyco22"],
+  channels: [channelName],
 };
 
 const client = new tmi.client(options);
